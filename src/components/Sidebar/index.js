@@ -1,16 +1,16 @@
 import './index.scss';
-import logo from '../../assets/images/logo.png';
-import Bansi from '../../assets/images/bansi.png';
+import B from '../../assets/images/B.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+
 
 import { Link, NavLink } from 'react-router-dom';
 
 const Sidebar = () => (
   <div className='nav-bar'>
     <Link className='logo' to='/'>
-      <img src={logo} alt="logo"/>
-      <img className='Bansi' src={Bansi} alt="bansi"/>
+      <img className='Bansi' src={B} alt="bansi"/>
     </Link>
     <nav>
       <NavLink exact={true} activeClassName="active" to="/">
@@ -23,6 +23,19 @@ const Sidebar = () => (
         <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e"/>
       </NavLink>
     </nav>
+    <ul>
+      <li>
+        <a target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/bansi-vaghasiya/'>
+          <FontAwesomeIcon icon={faLinkedin} color='#ffffff'/>
+        </a>
+      </li>
+
+      <li>
+        <a target='_blank' rel='noreferrer' href='https://github.com/Bansi1007'>
+          <FontAwesomeIcon icon={faGithub} color='#ffffff'/>
+        </a>
+      </li>
+    </ul>
   </div>
 );
 
