@@ -3,13 +3,16 @@ import LogoTitle from '../../assets/images/B.png';
 import './index.scss';
 import { useEffect, useState } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
+import Loader from 'react-loaders';
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
     const nameArray = ['a', 'n', 's', 'i'];
-    const jobArray = ['w', 'e', 'b', ' ', 'd', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r'];
+    const jobArray = ['W', 'e', 'b', ' ', 'D', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r'];
 
     return (
+        <>
+      
         <div className="container home-page">
             <div className="text-zone">
                 <h1>
@@ -32,6 +35,8 @@ const Home = () => {
             </div>
          
         </div>
+        <Loader type='pacman'/>
+        </>
     );
 };
 

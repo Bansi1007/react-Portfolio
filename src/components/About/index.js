@@ -28,8 +28,8 @@ const About = () => {
               idx={15}
             />
           </h1>
-          <p>Hello! I'm a dedicated frontend developer with a passion for designing exceptional web experiences. My focus goes beyond just code; it's about crafting seamless, user-friendly interfaces that users truly enjoy interacting with.</p>
-                    <p>I possess a quiet confidence, coupled with a natural curiosity, and I am continually enhancing my skills by tackling design challenges one at a time.</p>
+          <p>Hey there! I am a dedicated frontend developer, driven by a passion for creating exceptional web experiences. My commitment extends beyond writing code; it encompasses the art of crafting seamless and user-friendly interfaces that resonate with users on a profound level.</p>
+
            
         </div>
 

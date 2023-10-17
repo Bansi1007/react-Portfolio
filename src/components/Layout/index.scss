@@ -10,7 +10,7 @@
 }
 
 .tags {
-  color: #ffff;
+  color: #ffd700;
   opacity: 0.6;
   position: absolute;
   bottom: 0;
@@ -45,9 +45,9 @@
     h1 {
       font-size: 53px;
       font-family: 'Coolvetica';
-      color: #c6b40e;
+      color: #ffd700;
       font-weight: 400;
-      margin-top: 0;
+      margin-top: 10;
       position: relative;
       margin-bottom: 40px;
       left: -10px;
@@ -55,7 +55,7 @@
       &:before {
         content: '<h1>';
         font-family: 'La Belle Aurore', cursive;
-        color: #c6b40e;
+        color: #ffd700;
         font-size: 18px;
         position: absolute;
         margin-top: -10px;
@@ -67,7 +67,7 @@
       &:after {
         content: '<h1/>';
         font-family: 'La Belle Aurore', cursive;
-        color: #c6b40e;
+        color: #ffd700;
         font-size: 18px;
         line-height: 18px;
         position: absolute;
