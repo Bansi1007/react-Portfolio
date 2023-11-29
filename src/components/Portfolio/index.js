@@ -5,6 +5,7 @@ import "./index.scss";
 
 import event from '../../assets/images/event.jpg'
 import zapato from '../../assets/images/zapato.png'
+import amazon from '../../assets/images/amazon.png'
 const Portfolio = () => { 
     const [letterClass, setLetterClass] = useState('text-animate');
 
@@ -57,7 +58,21 @@ const Portfolio = () => {
                                     <h4 className="description"> An Android Java application for easy reminder management, utilizing SQLite database </h4>
                                     <button
                                         className="btn"
-                                        onClick={() => window.open('www.google.com')}
+                                        onClick={() => window.open('https://github.com/Bansi1007/Event_Reminder')}
+                                    >View</button>
+                                </div>
+                            </div>
+                            <div className="image-box" >
+                                <img 
+                                src={amazon}
+                                className="portfolio-image"
+                                alt="portfolio" />
+                                <div className="content">
+                                    <p className="title">Amazon Clone</p>
+                                    <h4 className="description"> Amazone clone </h4>
+                                    <button
+                                        className="btn"
+                                        onClick={() => window.open('https://github.com/Bansi1007/amazon_clone')}
                                     >View</button>
                                 </div>
                             </div>
